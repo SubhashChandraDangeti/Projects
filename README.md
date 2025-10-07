@@ -1,4 +1,3 @@
-# Project :
 ## 1. Seam Carving  :
 
 # Problem Statement  
@@ -47,15 +46,15 @@ The task is to implement **seam carving** – a content-aware image resizing alg
 as I have given imgpath as "sample_input/sample1.jpeg";
 
 # bash
-1. g++ 202520xxxx_A1_Q1.cpp -o seam_carving `pkg-config --cflags --libs opencv4`
+1. g++ SeamCarving.cpp  `pkg-config --cflags --libs opencv4`
 
-2. ./seam_carving
+2. ./a.out
 
 alternative : /** i used this for execution in cmd line :
 
-1. g++ 2025201007_A1_Q1.cpp -o seam_carving \
+1. g++ SeamCarving.cpp  \
     -I/usr/local/include/opencv4 \
     -L/usr/local/lib \
     -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs 
-2. ./seam_carving
+2. ./a.out
     **/
